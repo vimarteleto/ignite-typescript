@@ -17,7 +17,6 @@ Inicialização das config TypeScript e criação do arquivo tsconfig.json
 ```bash
 yarn tsc --init
 ```
-<br>
 
 ### Arquivo tsconfig.json para configurações do TypeScript
 Parâmetro de criação de arquivos .js:
@@ -30,5 +29,11 @@ Parâmetro de criação de arquivos .js:
 Criação dos arquivos .js
 ```bash
 yarn tsc
+```
+<br>
+
+Assim, é possível rodar o node com os arquivos .js
+```bash
+node dist/server.js
 ```
 
